@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_teleop
+CMAKE_SOURCE_DIR = /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_teleop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoan/colcon_ws/build/open_manipulator_x_teleop
+CMAKE_BINARY_DIR = /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_teleop
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hoan/colcon_ws/build/open_manipulator_x_teleop/CMakeFiles /home/hoan/colcon_ws/build/open_manipulator_x_teleop//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_teleop/CMakeFiles /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_teleop//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hoan/colcon_ws/build/open_manipulator_x_teleop/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_teleop/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target main[0m
+[ 50%] Built target hello_moveit
+[ 75%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:23:114:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   23 |         "/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/points.json"[01;31m[K;[m[K
+      |                                                                                                                  [01;31m[K^[m[K
+      |                                                                                                                  [32m[K)[m[K
+[01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:22:27:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   22 |     auto poses = loadPoses[01;36m[K([m[K
+      |                           [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

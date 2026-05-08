@@ -1,0 +1,293 @@
+[0.017s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces
+[0.086s] -- The C compiler identification is GNU 11.4.0
+[0.140s] -- The CXX compiler identification is GNU 11.4.0
+[0.148s] -- Detecting C compiler ABI info
+[0.205s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.212s] -- Detecting CXX compiler ABI info
+[0.275s] -- Detecting CXX compiler ABI info - done
+[0.279s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.280s] -- Detecting CXX compile features
+[0.280s] -- Detecting CXX compile features - done
+[0.284s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.390s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.434s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.477s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.514s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.520s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.530s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.542s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.580s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.591s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.893s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.324s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.326s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.346s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.346s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.346s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.346s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.362s] -- Found PythonExtra: .so  
+[1.416s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.452s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.455s] -- Added test 'lint_cmake' to check CMake code style
+[1.457s] -- Added test 'xmllint' to check XML markup files
+[1.461s] -- Configuring done
+[1.491s] -- Generating done
+[1.499s] -- Build files have been written to: /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces
+[1.509s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces
+[1.510s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces -- -j32 -l32
+[1.548s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.559s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.565s] [  3%] Built target ament_cmake_python_symlink_dynamixel_interfaces
+[1.727s] running egg_info
+[1.727s] creating dynamixel_interfaces.egg-info
+[1.727s] writing dynamixel_interfaces.egg-info/PKG-INFO
+[1.727s] writing dependency_links to dynamixel_interfaces.egg-info/dependency_links.txt
+[1.727s] writing top-level names to dynamixel_interfaces.egg-info/top_level.txt
+[1.727s] writing manifest file 'dynamixel_interfaces.egg-info/SOURCES.txt'
+[1.729s] reading manifest file 'dynamixel_interfaces.egg-info/SOURCES.txt'
+[1.729s] writing manifest file 'dynamixel_interfaces.egg-info/SOURCES.txt'
+[1.753s] [  3%] Built target ament_cmake_python_build_dynamixel_interfaces_egg
+[1.935s] [  5%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_interfaces/msg/detail/dynamixel_state__functions.c.o[0m
+[1.936s] [  7%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_interfaces/srv/detail/get_data_from_dxl__functions.c.o[0m
+[1.936s] [  9%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_interfaces/srv/detail/reboot_dxl__functions.c.o[0m
+[1.936s] [ 10%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_interfaces/srv/detail/set_data_to_dxl__functions.c.o[0m
+[1.941s] [ 10%] Built target dynamixel_interfaces__cpp
+[1.956s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.959s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.959s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.003s] [ 18%] [32m[1mLinking C shared library libdynamixel_interfaces__rosidl_generator_c.so[0m
+[2.049s] [ 18%] Built target dynamixel_interfaces__rosidl_generator_c
+[2.061s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.061s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.062s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.278s] [ 25%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_interfaces/msg/dynamixel_state__type_support.cpp.o[0m
+[2.279s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_interfaces/srv/reboot_dxl__type_support.cpp.o[0m
+[2.279s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_interfaces/srv/set_data_to_dxl__type_support.cpp.o[0m
+[2.279s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_interfaces/srv/get_data_from_dxl__type_support.cpp.o[0m
+[2.307s] [ 34%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_interfaces/srv/detail/reboot_dxl__type_support.cpp.o[0m
+[2.307s] [ 34%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_interfaces/msg/detail/dynamixel_state__type_support.cpp.o[0m
+[2.307s] [ 36%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_interfaces/srv/detail/set_data_to_dxl__type_support.cpp.o[0m
+[2.309s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support.cpp.o[0m
+[2.386s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_interfaces/msg/detail/dds_fastrtps/dynamixel_state__type_support.cpp.o[0m
+[2.386s] [ 41%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_interfaces/srv/detail/dds_fastrtps/set_data_to_dxl__type_support.cpp.o[0m
+[2.386s] [ 43%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_interfaces/srv/detail/dds_fastrtps/reboot_dxl__type_support.cpp.o[0m
+[2.398s] [ 45%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_interfaces/srv/detail/dds_fastrtps/get_data_from_dxl__type_support.cpp.o[0m
+[2.422s] [ 47%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_interfaces/srv/get_data_from_dxl__type_support.cpp.o[0m
+[2.422s] [ 49%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_interfaces/srv/set_data_to_dxl__type_support.cpp.o[0m
+[2.423s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_interfaces/msg/dynamixel_state__type_support.cpp.o[0m
+[2.431s] [ 52%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_interfaces/srv/reboot_dxl__type_support.cpp.o[0m
+[2.481s] [ 54%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_interfaces/msg/detail/dynamixel_state__type_support.c.o[0m
+[2.482s] [ 56%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_interfaces/srv/detail/set_data_to_dxl__type_support.c.o[0m
+[2.489s] [ 58%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support.c.o[0m
+[2.494s] [ 60%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_interfaces/srv/detail/reboot_dxl__type_support.c.o[0m
+[2.501s] [ 61%] [32m[1mLinking CXX shared library libdynamixel_interfaces__rosidl_typesupport_c.so[0m
+[2.521s] [ 63%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_interfaces/msg/detail/dynamixel_state__type_support_c.cpp.o[0m
+[2.521s] [ 65%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support_c.cpp.o[0m
+[2.526s] [ 67%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_interfaces/srv/detail/reboot_dxl__type_support_c.cpp.o[0m
+[2.527s] [ 69%] [32mBuilding CXX object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_interfaces/srv/detail/set_data_to_dxl__type_support_c.cpp.o[0m
+[2.555s] [ 70%] [32m[1mLinking C shared library libdynamixel_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.588s] [ 70%] Built target dynamixel_interfaces__rosidl_typesupport_c
+[2.596s] [ 72%] [32m[1mLinking CXX shared library libdynamixel_interfaces__rosidl_typesupport_cpp.so[0m
+[2.604s] [ 72%] Built target dynamixel_interfaces__rosidl_typesupport_introspection_c
+[2.648s] [ 72%] Built target dynamixel_interfaces__rosidl_typesupport_cpp
+[2.800s] [ 74%] [32m[1mLinking CXX shared library libdynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.805s] [ 76%] [32m[1mLinking CXX shared library libdynamixel_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.863s] [ 78%] [32m[1mLinking CXX shared library libdynamixel_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.872s] [ 78%] Built target dynamixel_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.892s] [ 78%] Built target dynamixel_interfaces__rosidl_typesupport_introspection_cpp
+[2.925s] [ 78%] Built target dynamixel_interfaces__rosidl_typesupport_fastrtps_c
+[2.946s] [ 78%] Built target dynamixel_interfaces
+[2.966s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.510s] [ 80%] Built target dynamixel_interfaces__py
+[3.529s] [ 83%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.o[0m
+[3.529s] [ 83%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.o[0m
+[3.529s] [ 85%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.o[0m
+[3.529s] [ 87%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.o[0m
+[3.607s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_interfaces/libdynamixel_interfaces__rosidl_generator_py.so[0m
+[3.641s] [ 89%] Built target dynamixel_interfaces__rosidl_generator_py
+[3.661s] [ 94%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.661s] [ 94%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.661s] [ 94%] [32mBuilding C object CMakeFiles/dynamixel_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.746s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.746s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.746s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.785s] [100%] Built target dynamixel_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.785s] [100%] Built target dynamixel_interfaces__rosidl_typesupport_c__pyext
+[3.787s] [100%] Built target dynamixel_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.800s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces -- -j32 -l32
+[3.802s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces
+[3.811s] -- Install configuration: ""
+[3.811s] -- Execute custom install script
+[3.812s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_interfaces
+[3.822s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__functions.h
+[3.832s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__struct.h
+[3.841s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__type_support.h
+[3.850s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/dynamixel_state.h
+[3.860s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.869s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__functions.h
+[3.878s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__struct.h
+[3.886s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support.h
+[3.895s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__functions.h
+[3.903s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__struct.h
+[3.912s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__type_support.h
+[3.919s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__functions.h
+[3.929s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__struct.h
+[3.937s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__type_support.h
+[3.945s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/get_data_from_dxl.h
+[3.954s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/reboot_dxl.h
+[3.963s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/set_data_to_dxl.h
+[3.971s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/library_path.sh
+[3.982s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/library_path.dsv
+[3.993s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__rosidl_typesupport_fastrtps_c.h
+[4.006s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.018s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__rosidl_typesupport_fastrtps_c.h
+[4.030s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__rosidl_typesupport_fastrtps_c.h
+[4.039s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__rosidl_typesupport_fastrtps_c.h
+[4.048s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__builder.hpp
+[4.056s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__struct.hpp
+[4.064s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__traits.hpp
+[4.072s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__type_support.hpp
+[4.080s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/dynamixel_state.hpp
+[4.088s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.096s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__builder.hpp
+[4.103s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__struct.hpp
+[4.111s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__traits.hpp
+[4.118s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support.hpp
+[4.126s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__builder.hpp
+[4.134s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__struct.hpp
+[4.142s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__traits.hpp
+[4.149s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__type_support.hpp
+[4.156s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__builder.hpp
+[4.163s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__struct.hpp
+[4.170s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__traits.hpp
+[4.178s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__type_support.hpp
+[4.187s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/get_data_from_dxl.hpp
+[4.195s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/reboot_dxl.hpp
+[4.202s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/set_data_to_dxl.hpp
+[4.210s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.219s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.228s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__rosidl_typesupport_fastrtps_cpp.hpp
+[4.236s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__rosidl_typesupport_fastrtps_cpp.hpp
+[4.244s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__rosidl_typesupport_fastrtps_cpp.hpp
+[4.252s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__rosidl_typesupport_introspection_c.h
+[4.258s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.265s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__rosidl_typesupport_introspection_c.h
+[4.272s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__rosidl_typesupport_introspection_c.h
+[4.279s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__rosidl_typesupport_introspection_c.h
+[4.286s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__rosidl_typesupport_introspection_cpp.hpp
+[4.292s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__rosidl_typesupport_introspection_cpp.hpp
+[4.299s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__rosidl_typesupport_introspection_cpp.hpp
+[4.306s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__rosidl_typesupport_introspection_cpp.hpp
+[4.314s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/pythonpath.sh
+[4.324s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/pythonpath.dsv
+[4.332s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces-1.0.1-py3.10.egg-info/PKG-INFO
+[4.339s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces-1.0.1-py3.10.egg-info/SOURCES.txt
+[4.347s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces-1.0.1-py3.10.egg-info/dependency_links.txt
+[4.355s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces-1.0.1-py3.10.egg-info/top_level.txt
+[4.363s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/__init__.py
+[4.372s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_c.c
+[4.380s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.388s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.396s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.405s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.413s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.422s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/libdynamixel_interfaces__rosidl_generator_py.so
+[4.431s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/msg/__init__.py
+[4.440s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/msg/_dynamixel_state.py
+[4.448s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/msg/_dynamixel_state_s.c
+[4.455s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/__init__.py
+[4.463s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_get_data_from_dxl.py
+[4.471s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_get_data_from_dxl_s.c
+[4.479s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_reboot_dxl.py
+[4.486s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_reboot_dxl_s.c
+[4.494s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_set_data_to_dxl.py
+[4.501s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_set_data_to_dxl_s.c
+[4.509s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.509s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.509s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/dynamixel_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.509s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/msg/DynamixelState.idl
+[4.518s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/GetDataFromDxl.idl
+[4.528s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/SetDataToDxl.idl
+[4.536s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/RebootDxl.idl
+[4.545s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/msg/DynamixelState.msg
+[4.552s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/GetDataFromDxl.srv
+[4.559s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/GetDataFromDxl_Request.msg
+[4.569s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/GetDataFromDxl_Response.msg
+[4.577s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/SetDataToDxl.srv
+[4.586s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/SetDataToDxl_Request.msg
+[4.595s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/SetDataToDxl_Response.msg
+[4.603s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/RebootDxl.srv
+[4.610s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/RebootDxl_Request.msg
+[4.618s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/srv/RebootDxl_Response.msg
+[4.627s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_interfaces
+[4.635s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_interfaces
+[4.643s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/ament_prefix_path.sh
+[4.650s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/ament_prefix_path.dsv
+[4.658s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/path.sh
+[4.665s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/environment/path.dsv
+[4.673s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/local_setup.bash
+[4.680s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/local_setup.sh
+[4.687s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/local_setup.zsh
+[4.695s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/local_setup.dsv
+[4.703s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/package.dsv
+[4.710s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/ament_index/resource_index/packages/dynamixel_interfaces
+[4.719s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.728s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.735s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.742s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.749s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.756s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.763s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.771s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfacesConfig.cmake
+[4.778s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfacesConfig-version.cmake
+[4.785s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/package.xml
+[4.793s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_generator_c.so
+[4.793s] -- Set runtime path of "/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_generator_c.so" to ""
+[4.793s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.794s] -- Set runtime path of "/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.794s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.794s] -- Set runtime path of "/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.794s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_introspection_c.so
+[4.794s] -- Set runtime path of "/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.794s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_c.so
+[4.795s] -- Set runtime path of "/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_c.so" to ""
+[4.795s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.795s] -- Set runtime path of "/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.795s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_cpp.so
+[4.796s] -- Set runtime path of "/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.822s] Listing '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces'...
+[4.822s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/__init__.py'...
+[4.822s] Listing '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/msg'...
+[4.822s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/msg/__init__.py'...
+[4.822s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/msg/_dynamixel_state.py'...
+[4.822s] Listing '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv'...
+[4.822s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/__init__.py'...
+[4.822s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_get_data_from_dxl.py'...
+[4.822s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_reboot_dxl.py'...
+[4.823s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/local/lib/python3.10/dist-packages/dynamixel_interfaces/srv/_set_data_to_dxl.py'...
+[4.826s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_generator_py.so
+[4.826s] -- Set runtime path of "/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_generator_py.so" to ""
+[4.826s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_generator_cExport.cmake
+[4.826s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.826s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.826s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.827s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_generator_cppExport.cmake
+[4.827s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.827s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.827s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.827s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.827s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_cExport.cmake
+[4.827s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.827s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.828s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.828s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_cppExport.cmake
+[4.828s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/dynamixel_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.828s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_generator_pyExport.cmake
+[4.828s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake/export_dynamixel_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.830s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces

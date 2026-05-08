@@ -1,8 +1,8 @@
 CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o: \
- /home/hoan/colcon_ws/src/dynamixel_hardware_interface/src/dynamixel/dynamixel.cpp \
+ /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/src/dynamixel/dynamixel.cpp \
  /usr/include/stdc-predef.h \
- /home/hoan/colcon_ws/src/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel.hpp \
- /home/hoan/colcon_ws/src/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel_info.hpp \
+ /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel.hpp \
+ /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel_info.hpp \
  /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -633,16 +633,16 @@ CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o: \
  /usr/include/boost/algorithm/string/formatter.hpp \
  /usr/include/boost/algorithm/string/detail/formatter.hpp \
  /usr/include/boost/algorithm/string/erase.hpp \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/dynamixel_sdk.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_read.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/packet_handler.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_handler.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_write.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_read.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_write.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_fast_sync_read.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_fast_bulk_read.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/dynamixel_sdk.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_read.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/packet_handler.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/group_handler.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_write.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_read.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_write.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/group_fast_sync_read.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/group_fast_bulk_read.h \
  /usr/include/c++/11/queue /usr/include/c++/11/bits/stl_queue.h \
  /usr/include/c++/11/cstdarg /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/std_thread.h \

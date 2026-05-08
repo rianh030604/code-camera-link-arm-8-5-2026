@@ -1,0 +1,29 @@
+[0.022s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground -- -j32 -l32
+[0.079s] [ 25%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[0.084s] [ 75%] Built target hello_moveit
+[6.736s] [100%] [32m[1mLinking CXX executable main[0m
+[7.269s] [100%] Built target main
+[7.278s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground -- -j32 -l32
+[7.280s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --install /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground
+[7.286s] -- Install configuration: ""
+[7.287s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/lib/open_manipulator_x_playground/hello_moveit
+[7.287s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/lib/open_manipulator_x_playground/main
+[7.293s] -- Set runtime path of "/home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/lib/open_manipulator_x_playground/main" to ""
+[7.293s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_playground
+[7.293s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_playground
+[7.293s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/ament_prefix_path.sh
+[7.293s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/ament_prefix_path.dsv
+[7.293s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/path.sh
+[7.293s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/path.dsv
+[7.294s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.bash
+[7.294s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.sh
+[7.294s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.zsh
+[7.294s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.dsv
+[7.294s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/package.dsv
+[7.294s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/ament_index/resource_index/packages/open_manipulator_x_playground
+[7.294s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/cmake/open_manipulator_x_playgroundConfig.cmake
+[7.294s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/cmake/open_manipulator_x_playgroundConfig-version.cmake
+[7.294s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/package.xml
+[7.294s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/launch
+[7.294s] -- Up-to-date: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/launch/main_with_moveit.launch.py
+[7.295s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --install /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground

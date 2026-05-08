@@ -1,0 +1,47 @@
+[0.026s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground -- -j32 -l32
+[0.109s] [ 50%] Built target hello_moveit
+[0.112s] [ 75%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[4.797s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.798s]                  from [01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:4[m[K:
+[4.798s] [01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:[m[K In constructor ‘[01m[KAutoPickupNode::AutoPickupNode(std::shared_ptr<moveit::planning_interface::MoveGroupInterface>, std::shared_ptr<moveit::planning_interface::MoveGroupInterface>)[m[K’:
+[4.798s] [01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:35:41:[m[K [01;35m[Kwarning: [m[Kunknown conversion type character ‘[01m[KV[m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.798s]    35 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"=== NODE DONG: DONG BO 100% VOI URDF ==="[m[K);
+[4.798s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.798s] [01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:35:70:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.798s]    35 |         RCLCPP_INFO(this->get_logger(), "=== NODE DONG: DONG BO 100% [01;36m[KV[m[KOI URDF ===");
+[4.798s]       |                                                                      [01;36m[K^[m[K
+[11.415s] [100%] [32m[1mLinking CXX executable main[0m
+[11.990s] [100%] Built target main
+[12.004s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground -- -j32 -l32
+[12.006s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground
+[12.015s] -- Install configuration: ""
+[12.015s] -- Execute custom install script
+[12.016s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/lib/open_manipulator_x_playground/hello_moveit
+[12.016s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/lib/open_manipulator_x_playground/main
+[12.016s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_playground
+[12.016s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_playground
+[12.016s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/ament_prefix_path.sh
+[12.016s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/ament_prefix_path.dsv
+[12.016s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/path.sh
+[12.016s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/path.dsv
+[12.016s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.bash
+[12.016s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.sh
+[12.016s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.zsh
+[12.017s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.dsv
+[12.017s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/package.dsv
+[12.025s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/ament_index/resource_index/packages/open_manipulator_x_playground
+[12.025s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/cmake/open_manipulator_x_playgroundConfig.cmake
+[12.026s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/cmake/open_manipulator_x_playgroundConfig-version.cmake
+[12.026s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/package.xml
+[12.026s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/launch/main_with_moveit.launch.py
+[12.029s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground

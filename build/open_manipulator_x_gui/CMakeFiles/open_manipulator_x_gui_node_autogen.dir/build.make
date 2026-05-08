@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui
+CMAKE_SOURCE_DIR = /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoan/colcon_ws/build/open_manipulator_x_gui
+CMAKE_BINARY_DIR = /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui
 
 # Utility rule file for open_manipulator_x_gui_node_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/open_manipulator_x_gui_node_autogen.dir/compiler_depend.make
 include CMakeFiles/open_manipulator_x_gui_node_autogen.dir/progress.make
 
 CMakeFiles/open_manipulator_x_gui_node_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target open_manipulator_x_gui_node"
-	/usr/bin/cmake -E cmake_autogen /home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles/open_manipulator_x_gui_node_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target open_manipulator_x_gui_node"
+	/usr/bin/cmake -E cmake_autogen /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles/open_manipulator_x_gui_node_autogen.dir/AutogenInfo.json ""
 
 open_manipulator_x_gui_node_autogen: CMakeFiles/open_manipulator_x_gui_node_autogen
 open_manipulator_x_gui_node_autogen: CMakeFiles/open_manipulator_x_gui_node_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/open_manipulator_x_gui_node_autogen.dir/clean:
 .PHONY : CMakeFiles/open_manipulator_x_gui_node_autogen.dir/clean
 
 CMakeFiles/open_manipulator_x_gui_node_autogen.dir/depend:
-	cd /home/hoan/colcon_ws/build/open_manipulator_x_gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui /home/hoan/colcon_ws/build/open_manipulator_x_gui /home/hoan/colcon_ws/build/open_manipulator_x_gui /home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles/open_manipulator_x_gui_node_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles/open_manipulator_x_gui_node_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/open_manipulator_x_gui_node_autogen.dir/depend
 

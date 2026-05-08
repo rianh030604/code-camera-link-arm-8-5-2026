@@ -1,6 +1,1 @@
-
-########################################
-# Respones
-########################################
-uint32 item_data
-bool result
+/home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_cmake/srv/GetDataFromDxl_Response.msg

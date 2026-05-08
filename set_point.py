@@ -17,7 +17,7 @@ import termios
 import json
 import os
 
-POINTS_FILE = "/home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_playground/src/points.json"
+POINTS_FILE = "/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/points.json"
 
 # ─── đọc phím không blocking ───
 def read_key():

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui
+CMAKE_SOURCE_DIR = /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoan/colcon_ws/build/open_manipulator_x_gui
+CMAKE_BINARY_DIR = /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/hoan/colcon_ws/build/open_manipulator_x_gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui /home/hoan/colcon_ws/build/open_manipulator_x_gui /home/hoan/colcon_ws/build/open_manipulator_x_gui /home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

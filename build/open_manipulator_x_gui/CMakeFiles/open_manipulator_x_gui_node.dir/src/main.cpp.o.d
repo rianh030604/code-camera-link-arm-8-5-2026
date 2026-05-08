@@ -1,5 +1,5 @@
 CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o: \
- /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/main.cpp \
+ /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore \
@@ -708,7 +708,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h \
- /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp \
+ /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
@@ -1018,7 +1018,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/hoan/colcon_ws/build/open_manipulator_x_gui/gui_headers/ui_main_window.h \
+ /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/gui_headers/ui_main_window.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QLocale \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QIcon \
@@ -1060,7 +1060,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
- /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp \
+ /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp \
  /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h \
  /opt/ros/humble/include/moveit/macros/class_forward.h \
  /opt/ros/humble/include/moveit/macros/declare_ptr.h \
@@ -1420,6 +1420,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o: \
  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
  /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+ /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \

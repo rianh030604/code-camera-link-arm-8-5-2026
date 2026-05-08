@@ -1,0 +1,29 @@
+[0.020s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground -- -j32 -l32
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target main[0m
+[0.101s] [ 50%] Built target hello_moveit
+[0.122s] [ 75%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[12.190s] [100%] [32m[1mLinking CXX executable main[0m
+[12.862s] [100%] Built target main
+[12.876s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground -- -j32 -l32
+[12.878s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground
+[12.887s] -- Install configuration: ""
+[12.888s] -- Execute custom install script
+[12.888s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/lib/open_manipulator_x_playground/hello_moveit
+[12.888s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/lib/open_manipulator_x_playground/main
+[12.888s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_playground
+[12.889s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_playground
+[12.889s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/ament_prefix_path.sh
+[12.889s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/ament_prefix_path.dsv
+[12.889s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/path.sh
+[12.889s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/path.dsv
+[12.889s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.bash
+[12.889s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.sh
+[12.890s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.zsh
+[12.890s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.dsv
+[12.890s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/package.dsv
+[12.903s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/ament_index/resource_index/packages/open_manipulator_x_playground
+[12.903s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/cmake/open_manipulator_x_playgroundConfig.cmake
+[12.903s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/cmake/open_manipulator_x_playgroundConfig-version.cmake
+[12.904s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/package.xml
+[12.904s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_playground/share/open_manipulator_x_playground/launch/main_with_moveit.launch.py
+[12.906s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground

@@ -1,5 +1,5 @@
 CMakeFiles/dynamixel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_interfaces/srv/get_data_from_dxl__type_support.cpp.o: \
- /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_typesupport_c/dynamixel_interfaces/srv/get_data_from_dxl__type_support.cpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_typesupport_c/dynamixel_interfaces/srv/get_data_from_dxl__type_support.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -15,7 +15,7 @@ CMakeFiles/dynamixel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/d
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_c/dynamixel_interfaces/srv/detail/get_data_from_dxl__struct.h \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_c/dynamixel_interfaces/srv/detail/get_data_from_dxl__struct.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -29,8 +29,8 @@ CMakeFiles/dynamixel_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/d
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_c/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support.h \
- /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_c/dynamixel_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_c/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support.h \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_c/dynamixel_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /opt/ros/humble/include/rosidl_typesupport_c/rosidl_typesupport_c/identifier.h \
  /opt/ros/humble/include/rosidl_typesupport_c/rosidl_typesupport_c/visibility_control.h \

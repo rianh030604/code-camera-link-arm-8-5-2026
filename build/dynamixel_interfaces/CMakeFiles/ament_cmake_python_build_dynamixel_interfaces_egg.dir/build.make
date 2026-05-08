@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoan/colcon_ws/src/dynamixel_interfaces
+CMAKE_SOURCE_DIR = /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoan/colcon_ws/build/dynamixel_interfaces
+CMAKE_BINARY_DIR = /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces
 
 # Utility rule file for ament_cmake_python_build_dynamixel_interfaces_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_dynamixel_interfaces_egg.dir/compile
 include CMakeFiles/ament_cmake_python_build_dynamixel_interfaces_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_dynamixel_interfaces_egg:
-	cd /home/hoan/colcon_ws/build/dynamixel_interfaces/ament_cmake_python/dynamixel_interfaces && /usr/bin/python3 setup.py egg_info
+	cd /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/ament_cmake_python/dynamixel_interfaces && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_dynamixel_interfaces_egg: CMakeFiles/ament_cmake_python_build_dynamixel_interfaces_egg
 ament_cmake_python_build_dynamixel_interfaces_egg: CMakeFiles/ament_cmake_python_build_dynamixel_interfaces_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_dynamixel_interfaces_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_dynamixel_interfaces_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_dynamixel_interfaces_egg.dir/depend:
-	cd /home/hoan/colcon_ws/build/dynamixel_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hoan/colcon_ws/src/dynamixel_interfaces /home/hoan/colcon_ws/src/dynamixel_interfaces /home/hoan/colcon_ws/build/dynamixel_interfaces /home/hoan/colcon_ws/build/dynamixel_interfaces /home/hoan/colcon_ws/build/dynamixel_interfaces/CMakeFiles/ament_cmake_python_build_dynamixel_interfaces_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/CMakeFiles/ament_cmake_python_build_dynamixel_interfaces_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_dynamixel_interfaces_egg.dir/depend
 

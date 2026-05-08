@@ -1,0 +1,12 @@
+[0.023s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground -- -j32 -l32
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target main[0m
+[0.091s] [ 50%] Built target hello_moveit
+[0.102s] [ 75%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[6.363s] [100%] [32m[1mLinking CXX executable main[0m
+[13.789s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[13.789s] (.text+0x1b): undefined reference to `main'
+[13.795s] collect2: error: ld returned 1 exit status
+[13.797s] gmake[2]: *** [CMakeFiles/main.dir/build.make:355: main] Error 1
+[13.797s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/main.dir/all] Error 2
+[13.797s] gmake: *** [Makefile:146: all] Error 2
+[13.800s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground -- -j32 -l32

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_playground
+CMAKE_SOURCE_DIR = /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoan/colcon_ws/build/open_manipulator_x_playground
+CMAKE_BINARY_DIR = /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/main.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/open_manipulator_x_playground_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_playground/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hoan/colcon_ws/build/open_manipulator_x_playground/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hoan/colcon_ws/build/open_manipulator_x_playground/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -111,14 +111,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/open_manipulator_x_playground_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/open_manipulator_x_playground_uninstall.dir/build.make CMakeFiles/open_manipulator_x_playground_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/open_manipulator_x_playground_uninstall.dir/build.make CMakeFiles/open_manipulator_x_playground_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_playground/CMakeFiles --progress-num= "Built target open_manipulator_x_playground_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground/CMakeFiles --progress-num= "Built target open_manipulator_x_playground_uninstall"
 .PHONY : CMakeFiles/open_manipulator_x_playground_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/open_manipulator_x_playground_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hoan/colcon_ws/build/open_manipulator_x_playground/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/open_manipulator_x_playground_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hoan/colcon_ws/build/open_manipulator_x_playground/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground/CMakeFiles 0
 .PHONY : CMakeFiles/open_manipulator_x_playground_uninstall.dir/rule
 
 # Convenience name for target.
@@ -137,14 +137,14 @@ CMakeFiles/open_manipulator_x_playground_uninstall.dir/clean:
 CMakeFiles/hello_moveit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_moveit.dir/build.make CMakeFiles/hello_moveit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_moveit.dir/build.make CMakeFiles/hello_moveit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_playground/CMakeFiles --progress-num=1,2 "Built target hello_moveit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground/CMakeFiles --progress-num=1,2 "Built target hello_moveit"
 .PHONY : CMakeFiles/hello_moveit.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_moveit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hoan/colcon_ws/build/open_manipulator_x_playground/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_moveit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hoan/colcon_ws/build/open_manipulator_x_playground/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground/CMakeFiles 0
 .PHONY : CMakeFiles/hello_moveit.dir/rule
 
 # Convenience name for target.
@@ -163,14 +163,14 @@ CMakeFiles/hello_moveit.dir/clean:
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_playground/CMakeFiles --progress-num=3,4 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground/CMakeFiles --progress-num=3,4 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hoan/colcon_ws/build/open_manipulator_x_playground/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hoan/colcon_ws/build/open_manipulator_x_playground/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground/CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui
+CMAKE_SOURCE_DIR = /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoan/colcon_ws/build/open_manipulator_x_gui
+CMAKE_BINARY_DIR = /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui
 
 # Include any dependencies generated for this target.
 include CMakeFiles/open_manipulator_x_gui_node.dir/depend.make
@@ -69,101 +69,101 @@ include CMakeFiles/open_manipulator_x_gui_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/open_manipulator_x_gui_node.dir/flags.make
 
-include/open_manipulator_x_gui/moc_main_window.cpp: /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/open_manipulator_x_gui/moc_main_window.cpp"
-	cd /home/hoan/colcon_ws/build/open_manipulator_x_gui/include/open_manipulator_x_gui && /usr/lib/qt5/bin/moc @/home/hoan/colcon_ws/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_main_window.cpp_parameters
+include/open_manipulator_x_gui/moc_main_window.cpp: /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/open_manipulator_x_gui/moc_main_window.cpp"
+	cd /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/include/open_manipulator_x_gui && /usr/lib/qt5/bin/moc @/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_main_window.cpp_parameters
 
-include/open_manipulator_x_gui/moc_qnode.cpp: /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating include/open_manipulator_x_gui/moc_qnode.cpp"
-	cd /home/hoan/colcon_ws/build/open_manipulator_x_gui/include/open_manipulator_x_gui && /usr/lib/qt5/bin/moc @/home/hoan/colcon_ws/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_qnode.cpp_parameters
+include/open_manipulator_x_gui/moc_qnode.cpp: /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating include/open_manipulator_x_gui/moc_qnode.cpp"
+	cd /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/include/open_manipulator_x_gui && /usr/lib/qt5/bin/moc @/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_qnode.cpp_parameters
 
-ui_main_window.h: /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/ui/main_window.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_main_window.h"
-	/usr/lib/qt5/bin/uic -o /home/hoan/colcon_ws/build/open_manipulator_x_gui/ui_main_window.h /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/ui/main_window.ui
+ui_main_window.h: /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/ui/main_window.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_main_window.h"
+	/usr/lib/qt5/bin/uic -o /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/ui_main_window.h /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/ui/main_window.ui
 
 CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o: CMakeFiles/open_manipulator_x_gui_node.dir/flags.make
 CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o: open_manipulator_x_gui_node_autogen/mocs_compilation.cpp
 CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o: CMakeFiles/open_manipulator_x_gui_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o -MF CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o -c /home/hoan/colcon_ws/build/open_manipulator_x_gui/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o -MF CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o -c /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp
 
 CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hoan/colcon_ws/build/open_manipulator_x_gui/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp > CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp > CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hoan/colcon_ws/build/open_manipulator_x_gui/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp -o CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp -o CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o: CMakeFiles/open_manipulator_x_gui_node.dir/flags.make
-CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o: /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/main.cpp
+CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o: /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/main.cpp
 CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o: CMakeFiles/open_manipulator_x_gui_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o -MF CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o.d -o CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o -c /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o -MF CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o.d -o CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o -c /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/main.cpp
 
 CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/main.cpp > CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/main.cpp > CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.i
 
 CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/main.cpp -o CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/main.cpp -o CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.s
 
 CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o: CMakeFiles/open_manipulator_x_gui_node.dir/flags.make
-CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o: /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/main_window.cpp
+CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o: /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/main_window.cpp
 CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o: CMakeFiles/open_manipulator_x_gui_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o -MF CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o.d -o CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o -c /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/main_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o -MF CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o.d -o CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o -c /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/main_window.cpp
 
 CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/main_window.cpp > CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/main_window.cpp > CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.i
 
 CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/main_window.cpp -o CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/main_window.cpp -o CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.s
 
 CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o: CMakeFiles/open_manipulator_x_gui_node.dir/flags.make
-CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o: /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/qnode.cpp
+CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o: /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/qnode.cpp
 CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o: CMakeFiles/open_manipulator_x_gui_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o -MF CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o.d -o CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o -c /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/qnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o -MF CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o.d -o CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o -c /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/qnode.cpp
 
 CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/qnode.cpp > CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/qnode.cpp > CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.i
 
 CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/qnode.cpp -o CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/qnode.cpp -o CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.s
 
 CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.o: CMakeFiles/open_manipulator_x_gui_node.dir/flags.make
 CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.o: include/open_manipulator_x_gui/moc_main_window.cpp
 CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.o: CMakeFiles/open_manipulator_x_gui_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.o -MF CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.o.d -o CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.o -c /home/hoan/colcon_ws/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_main_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.o -MF CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.o.d -o CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.o -c /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_main_window.cpp
 
 CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hoan/colcon_ws/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_main_window.cpp > CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_main_window.cpp > CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.i
 
 CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hoan/colcon_ws/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_main_window.cpp -o CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_main_window.cpp -o CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.s
 
 CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.o: CMakeFiles/open_manipulator_x_gui_node.dir/flags.make
 CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.o: include/open_manipulator_x_gui/moc_qnode.cpp
 CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.o: CMakeFiles/open_manipulator_x_gui_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.o -MF CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.o.d -o CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.o -c /home/hoan/colcon_ws/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_qnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.o -MF CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.o.d -o CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.o -c /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_qnode.cpp
 
 CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hoan/colcon_ws/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_qnode.cpp > CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_qnode.cpp > CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.i
 
 CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hoan/colcon_ws/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_qnode.cpp -o CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_qnode.cpp -o CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.s
 
 # Object files for target open_manipulator_x_gui_node
 open_manipulator_x_gui_node_OBJECTS = \
@@ -426,7 +426,7 @@ open_manipulator_x_gui_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_
 open_manipulator_x_gui_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 open_manipulator_x_gui_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 open_manipulator_x_gui_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-open_manipulator_x_gui_node: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+open_manipulator_x_gui_node: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 open_manipulator_x_gui_node: /opt/ros/humble/lib/librmw.so
 open_manipulator_x_gui_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 open_manipulator_x_gui_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
@@ -446,7 +446,7 @@ open_manipulator_x_gui_node: /usr/lib/x86_64-linux-gnu/libcrypto.so
 open_manipulator_x_gui_node: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 open_manipulator_x_gui_node: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 open_manipulator_x_gui_node: CMakeFiles/open_manipulator_x_gui_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable open_manipulator_x_gui_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable open_manipulator_x_gui_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/open_manipulator_x_gui_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -460,6 +460,6 @@ CMakeFiles/open_manipulator_x_gui_node.dir/clean:
 CMakeFiles/open_manipulator_x_gui_node.dir/depend: include/open_manipulator_x_gui/moc_main_window.cpp
 CMakeFiles/open_manipulator_x_gui_node.dir/depend: include/open_manipulator_x_gui/moc_qnode.cpp
 CMakeFiles/open_manipulator_x_gui_node.dir/depend: ui_main_window.h
-	cd /home/hoan/colcon_ws/build/open_manipulator_x_gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui /home/hoan/colcon_ws/build/open_manipulator_x_gui /home/hoan/colcon_ws/build/open_manipulator_x_gui /home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles/open_manipulator_x_gui_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles/open_manipulator_x_gui_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/open_manipulator_x_gui_node.dir/depend
 

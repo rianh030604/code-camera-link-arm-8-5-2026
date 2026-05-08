@@ -1,0 +1,245 @@
+[0.019s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dung/Manipulator_amr_90_dergee/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.144s] -- The CXX compiler identification is GNU 11.4.0
+[0.151s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.213s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.214s] -- Detecting C compile features
+[0.214s] -- Detecting C compile features - done
+[0.216s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.286s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.286s] -- Detecting CXX compile features
+[0.286s] -- Detecting CXX compile features - done
+[0.289s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.397s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.437s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.614s] -- Configuring done
+[0.620s] -- Generating done
+[0.622s] -- Build files have been written to: /home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk
+[0.626s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dung/Manipulator_amr_90_dergee/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk
+[0.627s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk -- -j32 -l32
+[0.670s] [  5%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[0.670s] [ 11%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[0.670s] [ 16%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[0.671s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[0.671s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[0.671s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_sync_read.cpp.o[0m
+[0.671s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[0.672s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[0.672s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_bulk_read.cpp.o[0m
+[0.673s] [ 55%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/motor.cpp.o[0m
+[0.673s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_handler.cpp.o[0m
+[0.673s] [ 66%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/control_table.cpp.o[0m
+[0.673s] [ 72%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[0.674s] [ 77%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[0.674s] [ 83%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/dynamixel_error.cpp.o[0m
+[0.674s] [ 88%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/connector.cpp.o[0m
+[0.674s] [ 94%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/group_executor.cpp.o[0m
+[0.679s] [ 94%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[0.680s] [ 94%] Built target ament_cmake_python_symlink_dynamixel_easy_sdk
+[0.859s] running egg_info
+[0.859s] creating dynamixel_easy_sdk.egg-info
+[0.859s] writing dynamixel_easy_sdk.egg-info/PKG-INFO
+[0.860s] writing dependency_links to dynamixel_easy_sdk.egg-info/dependency_links.txt
+[0.860s] writing top-level names to dynamixel_easy_sdk.egg-info/top_level.txt
+[0.860s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[0.861s] reading manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[0.861s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[0.876s] running egg_info
+[0.876s] creating dynamixel_sdk.egg-info
+[0.877s] writing dynamixel_sdk.egg-info/PKG-INFO
+[0.877s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[0.877s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[0.877s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[0.880s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[0.880s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[0.891s] [ 94%] Built target ament_cmake_python_build_dynamixel_easy_sdk_egg
+[0.917s] [ 94%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[1.329s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[1.421s] [100%] Built target dynamixel_sdk
+[1.432s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk -- -j32 -l32
+[1.433s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk
+[1.440s] -- Install configuration: ""
+[1.440s] -- Execute custom install script
+[1.441s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_easy_sdk/connector.hpp
+[1.449s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_easy_sdk/control_table.hpp
+[1.456s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_easy_sdk/data_types.hpp
+[1.465s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_easy_sdk.hpp
+[1.474s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_error.hpp
+[1.481s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_easy_sdk/group_executor.hpp
+[1.489s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_easy_sdk/motor.hpp
+[1.497s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.505s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.514s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.521s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[1.530s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[1.541s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[1.549s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.557s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.565s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.573s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.581s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.589s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.597s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.605s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.614s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.624s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.633s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xc430_w250.model
+[1.641s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xl430_w250.model
+[1.649s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/dynamixel.model
+[1.656s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h42_20_s300_ra.model
+[1.665s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_100_s500_ra.model
+[1.674s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_200_s500_ra.model
+[1.684s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m42_10_s260_ra.model
+[1.694s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_40_s250_ra.model
+[1.704s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_60_s250_ra.model
+[1.712s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_106.model
+[1.725s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_28.model
+[1.735s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_64.model
+[1.744s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph42_020_s300.model
+[1.753s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_100_s500.model
+[1.761s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_200_s500.model
+[1.769s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm42_010_s260.model
+[1.777s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_040_s250.model
+[1.786s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_060_s250.model
+[1.796s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/rh_p12_rn.model
+[1.811s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181.model
+[1.823s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181_fw52.model
+[1.836s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288.model
+[1.851s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288_fw52.model
+[1.860s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181.model
+[1.871s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181_fw52.model
+[1.880s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288.model
+[1.891s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288_fw52.model
+[1.907s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w150.model
+[1.918s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w240.model
+[1.930s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t210.model
+[1.942s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t350.model
+[1.952s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t150.model
+[1.964s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t270.model
+[1.975s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v210.model
+[1.988s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v350.model
+[1.999s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w210.model
+[2.008s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w350.model
+[2.019s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v150.model
+[2.029s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v270.model
+[2.042s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w150.model
+[2.052s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w270.model
+[2.060s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl320.model
+[2.071s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077.model
+[2.084s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077_fw52.model
+[2.099s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288.model
+[2.112s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288_fw52.model
+[2.122s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl430_w250.model
+[2.134s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w210.model
+[2.145s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w350.model
+[2.156s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w150.model
+[2.165s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w270.model
+[2.174s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t200.model
+[2.187s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t333.model
+[2.199s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_h260.model
+[2.212s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t140.model
+[2.222s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t260.model
+[2.233s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a051.model
+[2.242s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a099.model
+[2.251s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_b001.model
+[2.260s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_m001.model
+[2.269s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r051.model
+[2.281s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r099.model
+[2.294s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a051.model
+[2.304s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a099.model
+[2.319s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_b001.model
+[2.334s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_m001.model
+[2.351s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r051.model
+[2.365s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r099.model
+[2.395s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[2.409s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[2.428s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.3-py3.10.egg-info/PKG-INFO
+[2.451s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.3-py3.10.egg-info/SOURCES.txt
+[2.469s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.3-py3.10.egg-info/dependency_links.txt
+[2.485s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.3-py3.10.egg-info/top_level.txt
+[2.504s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/__init__.py
+[2.529s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.cpp
+[2.547s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.py
+[2.564s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.cpp
+[2.581s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.py
+[2.594s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[2.605s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[2.616s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_handler.cpp
+[2.630s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.cpp
+[2.642s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.py
+[2.653s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.cpp
+[2.664s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.py
+[2.675s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.cpp
+[2.692s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.py
+[2.707s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.cpp
+[2.721s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.py
+[2.737s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_arduino.cpp
+[2.751s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_linux.cpp
+[2.765s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_mac.cpp
+[2.776s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_windows.cpp
+[2.787s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[2.797s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.py
+[2.807s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[2.819s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.py
+[2.829s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/robotis_def.py
+[2.837s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.3-py3.10.egg-info/PKG-INFO
+[2.846s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.3-py3.10.egg-info/SOURCES.txt
+[2.854s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.3-py3.10.egg-info/dependency_links.txt
+[2.863s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.3-py3.10.egg-info/top_level.txt
+[2.874s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/__init__.py
+[2.885s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/connector.cpp
+[2.896s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/connector.py
+[2.905s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/control_table.cpp
+[2.913s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/control_table.py
+[2.921s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/data_types.py
+[2.929s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/dynamixel_error.cpp
+[2.938s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/dynamixel_error.py
+[2.946s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/group_executor.cpp
+[2.954s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/group_executor.py
+[2.962s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/motor.cpp
+[2.970s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/motor.py
+[2.977s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[2.987s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[2.995s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[3.003s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[3.010s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[3.019s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[3.029s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[3.038s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[3.046s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[3.053s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[3.062s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[3.070s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[3.077s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[3.084s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[3.092s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[3.099s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.107s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[3.114s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[3.123s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[3.133s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[3.141s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[3.174s] Listing '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk'...
+[3.174s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/__init__.py'...
+[3.174s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.py'...
+[3.174s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.py'...
+[3.174s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.py'...
+[3.174s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.py'...
+[3.174s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.py'...
+[3.174s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.py'...
+[3.174s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.py'...
+[3.175s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.py'...
+[3.175s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/robotis_def.py'...
+[3.205s] Listing '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk'...
+[3.205s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/__init__.py'...
+[3.205s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/connector.py'...
+[3.205s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/control_table.py'...
+[3.205s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/data_types.py'...
+[3.205s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/dynamixel_error.py'...
+[3.206s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/group_executor.py'...
+[3.206s] Compiling '/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/motor.py'...
+[3.209s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+[3.209s] -- Installing: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake
+[3.212s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk

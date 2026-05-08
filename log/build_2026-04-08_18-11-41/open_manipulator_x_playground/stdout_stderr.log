@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target main[0m
+[ 50%] Built target hello_moveit
+[ 75%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:4[m[K:
+[01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:[m[K In member function ‘[01m[Kvoid AutoPickupNode::pose_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:94:98:[m[K [01;31m[Kerror: [m[K‘[01m[Ktz_table[m[K’ was not declared in this scope
+   94 |         RCLCPP_INFO(this->get_logger(), "Ve vat (He mat ban) -> X:%.3f, Y:%.3f, Z:%.3f", tx, ty, [01;31m[Ktz_table[m[K);
+      |                                                                                                  [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

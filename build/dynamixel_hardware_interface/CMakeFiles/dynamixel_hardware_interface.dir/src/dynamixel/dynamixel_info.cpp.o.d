@@ -1,7 +1,7 @@
 CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o: \
- /home/hoan/colcon_ws/src/dynamixel_hardware_interface/src/dynamixel/dynamixel_info.cpp \
+ /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/src/dynamixel/dynamixel_info.cpp \
  /usr/include/stdc-predef.h \
- /home/hoan/colcon_ws/src/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel_info.hpp \
+ /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel_info.hpp \
  /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

@@ -1,3 +1,1 @@
-# Constants
-# Request
-uint8 id
+/home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk_custom_interfaces/rosidl_cmake/srv/GetPosition_Request.msg

@@ -135,7 +135,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_ma
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp \
+  /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -743,7 +743,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_ma
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
-  /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp \
+  /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp \
   /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h \
   /opt/ros/humble/include/moveit/macros/class_forward.h \
   /opt/ros/humble/include/moveit/macros/declare_ptr.h \
@@ -1123,6 +1123,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_ma
   /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
   /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
   /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
@@ -1790,7 +1791,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qn
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp \
+  /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp \
   /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h \
   /opt/ros/humble/include/moveit/macros/class_forward.h \
   /opt/ros/humble/include/moveit/macros/declare_ptr.h \
@@ -2496,6 +2497,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qn
   /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
   /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
   /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
@@ -3084,7 +3086,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qn
 CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o: open_manipulator_x_gui_node_autogen/mocs_compilation.cpp \
   /usr/include/stdc-predef.h
 
-CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o: /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/main.cpp \
+CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o: /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/main.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends \
@@ -3847,7 +3849,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o: /home/hoan/colcon_ws/
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h \
-  /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp \
+  /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
@@ -4211,7 +4213,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o: /home/hoan/colcon_ws/
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
-  /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp \
+  /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp \
   /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h \
   /opt/ros/humble/include/moveit/macros/class_forward.h \
   /opt/ros/humble/include/moveit/macros/declare_ptr.h \
@@ -4584,6 +4586,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o: /home/hoan/colcon_ws/
   /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
   /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
   /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
@@ -5113,7 +5116,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o: /home/hoan/colcon_ws/
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
 
-CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o: /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/main_window.cpp \
+CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o: /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/main_window.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends \
@@ -5893,7 +5896,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o: /home/hoan/col
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp \
+  /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
@@ -6242,7 +6245,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o: /home/hoan/col
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
-  /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp \
+  /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp \
   /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h \
   /opt/ros/humble/include/moveit/macros/class_forward.h \
   /opt/ros/humble/include/moveit/macros/declare_ptr.h \
@@ -6615,6 +6618,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o: /home/hoan/col
   /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
   /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
   /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
@@ -7144,9 +7148,9 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o: /home/hoan/col
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
 
-CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o: /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/qnode.cpp \
+CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o: /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/qnode.cpp \
   /usr/include/stdc-predef.h \
-  /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp \
+  /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp \
   /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h \
   /opt/ros/humble/include/moveit/macros/class_forward.h \
   /opt/ros/humble/include/moveit/macros/declare_ptr.h \
@@ -7984,6 +7988,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o: /home/hoan/colcon_ws
   /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
   /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
   /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
@@ -8570,9 +8575,9 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o: /home/hoan/colcon_ws
   /opt/ros/humble/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 
-/home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/qnode.cpp:
+/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/qnode.cpp:
 
-/home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/main_window.cpp:
+/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/main_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtexttable.h:
 
@@ -8723,6 +8728,8 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o: /home/hoan/colcon_ws
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qisenum.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qidentityproxymodel.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qhistorystate.h:
 
@@ -9288,6 +9295,8 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o: /home/hoan/colcon_ws
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qthreadstorage.h:
 
+/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/src/main.cpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
@@ -9295,8 +9304,6 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o: /home/hoan/colcon_ws
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qopengl.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp:
 
@@ -9489,6 +9496,8 @@ CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o: /home/hoan/colcon_ws
 /usr/include/c++/11/cxxabi.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h:
 
@@ -10312,13 +10321,17 @@ open_manipulator_x_gui_node_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/11/bits/memoryfwd.h:
 
-/usr/include/c++/11/bits/stl_function.h:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
 
 /usr/include/boost/preprocessor/variadic/size.hpp:
 
 /usr/include/c++/11/ext/type_traits.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
+
+/usr/include/eigen3/Eigen/src/SparseCore/SparseUtil.h:
 
 /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
 
@@ -10450,18 +10463,6 @@ include/open_manipulator_x_gui/moc_main_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h:
 
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h:
-
-/usr/include/c++/11/initializer_list:
-
-/opt/ros/humble/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h:
-
-/usr/include/c++/11/iosfwd:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton:
-
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
@@ -10559,18 +10560,6 @@ include/open_manipulator_x_gui/moc_main_window.cpp:
 /usr/include/eigen3/Eigen/Core:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
-
-/usr/include/eigen3/Eigen/src/SparseCore/SparseUtil.h:
-
-/home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlibraryinfo.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h:
 
 /usr/include/c++/11/bits/stl_construct.h:
 
@@ -10746,8 +10735,6 @@ include/open_manipulator_x_gui/moc_main_window.cpp:
 
 /usr/include/c++/11/bits/streambuf.tcc:
 
-/usr/include/boost/preprocessor/control/if.hpp:
-
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
 /usr/include/c++/11/typeinfo:
@@ -10771,6 +10758,40 @@ include/open_manipulator_x_gui/moc_main_window.cpp:
 /usr/include/c++/11/bits/nested_exception.h:
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h:
+
+/usr/include/c++/11/initializer_list:
+
+/opt/ros/humble/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h:
+
+/usr/include/c++/11/iosfwd:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp:
+
+/usr/include/c++/11/cstdio:
+
+/usr/include/eigen3/Eigen/src/Core/IndexedView.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
+
+/usr/include/eigen3/Eigen/Eigen:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QTransform:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventtransition.h:
+
+/usr/include/eigen3/Eigen/Dense:
+
+/usr/include/asm-generic/errno.h:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp:
 
@@ -10835,6 +10856,10 @@ include/open_manipulator_x_gui/moc_main_window.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h:
 
 /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlibraryinfo.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
@@ -10957,8 +10982,6 @@ include/open_manipulator_x_gui/moc_main_window.cpp:
 /usr/include/c++/11/cstddef:
 
 /usr/include/c++/11/bits/stl_vector.h:
-
-/home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/src/main.cpp:
 
 /usr/include/c++/11/tr1/ell_integral.tcc:
 
@@ -11118,12 +11141,6 @@ include/open_manipulator_x_gui/moc_main_window.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/c++/11/cstdio:
-
-/usr/include/eigen3/Eigen/src/Core/IndexedView.h:
-
-/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
-
 /usr/include/stdio.h:
 
 /usr/include/eigen3/Eigen/src/Core/Transpositions.h:
@@ -11131,18 +11148,6 @@ include/open_manipulator_x_gui/moc_main_window.cpp:
 /usr/include/boost/preprocessor/list/reverse.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/eigen3/Eigen/Eigen:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QTransform:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventtransition.h:
-
-/usr/include/eigen3/Eigen/Dense:
-
-/usr/include/asm-generic/errno.h:
 
 /usr/include/eigen3/Eigen/src/Core/StableNorm.h:
 
@@ -11552,9 +11557,9 @@ include/open_manipulator_x_gui/moc_main_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qidentityproxymodel.h:
+/opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp:
 
-/home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp:
+/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp:
 
 /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:
 
@@ -11847,8 +11852,6 @@ include/open_manipulator_x_gui/moc_main_window.cpp:
 /usr/include/boost/mpl/aux_/na.hpp:
 
 /usr/include/boost/mpl/aux_/config/ttp.hpp:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
 
 /usr/include/boost/mpl/int.hpp:
 
@@ -12257,6 +12260,10 @@ include/open_manipulator_x_gui/moc_main_window.cpp:
 /usr/include/strings.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
+
+/usr/include/boost/preprocessor/control/if.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp:
 
 /usr/include/eigen3/Eigen/src/SparseCore/SparseBlock.h:
 

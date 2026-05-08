@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui
+CMAKE_SOURCE_DIR = /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoan/colcon_ws/build/open_manipulator_x_gui
+CMAKE_BINARY_DIR = /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui
 
 # Utility rule file for copy_ui_header.
 
@@ -69,12 +69,12 @@ include CMakeFiles/copy_ui_header.dir/progress.make
 CMakeFiles/copy_ui_header: gui_headers/ui_main_window.h
 
 gui_headers/ui_main_window.h: ui_main_window.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating gui_headers/ui_main_window.h"
-	/usr/bin/cmake -E copy /home/hoan/colcon_ws/build/open_manipulator_x_gui/ui_main_window.h /home/hoan/colcon_ws/build/open_manipulator_x_gui/gui_headers/ui_main_window.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating gui_headers/ui_main_window.h"
+	/usr/bin/cmake -E copy /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/ui_main_window.h /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/gui_headers/ui_main_window.h
 
-ui_main_window.h: /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/ui/main_window.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_main_window.h"
-	/usr/lib/qt5/bin/uic -o /home/hoan/colcon_ws/build/open_manipulator_x_gui/ui_main_window.h /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/ui/main_window.ui
+ui_main_window.h: /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/ui/main_window.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_main_window.h"
+	/usr/lib/qt5/bin/uic -o /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/ui_main_window.h /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui/ui/main_window.ui
 
 copy_ui_header: CMakeFiles/copy_ui_header
 copy_ui_header: gui_headers/ui_main_window.h
@@ -91,6 +91,6 @@ CMakeFiles/copy_ui_header.dir/clean:
 .PHONY : CMakeFiles/copy_ui_header.dir/clean
 
 CMakeFiles/copy_ui_header.dir/depend:
-	cd /home/hoan/colcon_ws/build/open_manipulator_x_gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui /home/hoan/colcon_ws/build/open_manipulator_x_gui /home/hoan/colcon_ws/build/open_manipulator_x_gui /home/hoan/colcon_ws/build/open_manipulator_x_gui/CMakeFiles/copy_ui_header.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/CMakeFiles/copy_ui_header.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/copy_ui_header.dir/depend
 

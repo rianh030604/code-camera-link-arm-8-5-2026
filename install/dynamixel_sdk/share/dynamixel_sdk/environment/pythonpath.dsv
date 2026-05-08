@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;local/lib/python3.10/dist-packages
+/home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk/ament_cmake_environment_hooks/pythonpath.dsv

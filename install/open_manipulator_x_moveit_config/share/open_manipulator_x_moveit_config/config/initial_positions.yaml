@@ -1,8 +1,1 @@
-# Default initial positions for open_manipulator_x's ros2_control fake system
-
-initial_positions:
-  gripper_left_joint: 0
-  joint1: 0
-  joint2: 0
-  joint3: 0
-  joint4: 0
+/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_moveit_config/config/initial_positions.yaml

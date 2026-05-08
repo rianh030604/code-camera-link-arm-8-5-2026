@@ -1,0 +1,7 @@
+[01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:[m[K In lambda function:
+[01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:169:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Node[m[K’ {aka ‘[01m[Kclass rclcpp::Node[m[K’} has no member named ‘[01m[Kexecute_grab[m[K’
+  169 |                     self->[01;31m[Kexecute_grab[m[K(sp);
+      |                           [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,8 +1,8 @@
-# Install script for directory: /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_description
+# Install script for directory: /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hoan/colcon_ws/install/open_manipulator_x_description")
+  set(CMAKE_INSTALL_PREFIX "/home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,73 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/open_manipulator_x_description" TYPE DIRECTORY FILES
-    "/home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_description/launch"
-    "/home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_description/meshes"
-    "/home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_description/rviz"
-    "/home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_description/urdf"
-    "/home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_description/gazebo"
-    "/home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_description/ros2_control"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/hoan/colcon_ws/build/open_manipulator_x_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_description")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/hoan/colcon_ws/build/open_manipulator_x_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_description")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/open_manipulator_x_description/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/open_manipulator_x_description/environment" TYPE FILE FILES "/home/hoan/colcon_ws/build/open_manipulator_x_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/open_manipulator_x_description/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/open_manipulator_x_description/environment" TYPE FILE FILES "/home/hoan/colcon_ws/build/open_manipulator_x_description/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/open_manipulator_x_description" TYPE FILE FILES "/home/hoan/colcon_ws/build/open_manipulator_x_description/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/open_manipulator_x_description" TYPE FILE FILES "/home/hoan/colcon_ws/build/open_manipulator_x_description/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/open_manipulator_x_description" TYPE FILE FILES "/home/hoan/colcon_ws/build/open_manipulator_x_description/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/open_manipulator_x_description" TYPE FILE FILES "/home/hoan/colcon_ws/build/open_manipulator_x_description/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/open_manipulator_x_description" TYPE FILE FILES "/home/hoan/colcon_ws/build/open_manipulator_x_description/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/hoan/colcon_ws/build/open_manipulator_x_description/ament_cmake_index/share/ament_index/resource_index/packages/open_manipulator_x_description")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/open_manipulator_x_description/cmake" TYPE FILE FILES
-    "/home/hoan/colcon_ws/build/open_manipulator_x_description/ament_cmake_core/open_manipulator_x_descriptionConfig.cmake"
-    "/home/hoan/colcon_ws/build/open_manipulator_x_description/ament_cmake_core/open_manipulator_x_descriptionConfig-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/open_manipulator_x_description" TYPE FILE FILES "/home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_description/package.xml")
+  include("/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -120,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hoan/colcon_ws/build/open_manipulator_x_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

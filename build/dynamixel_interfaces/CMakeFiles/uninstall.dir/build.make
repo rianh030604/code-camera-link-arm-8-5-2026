@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoan/colcon_ws/src/dynamixel_interfaces
+CMAKE_SOURCE_DIR = /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoan/colcon_ws/build/dynamixel_interfaces
+CMAKE_BINARY_DIR = /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/hoan/colcon_ws/build/dynamixel_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hoan/colcon_ws/src/dynamixel_interfaces /home/hoan/colcon_ws/src/dynamixel_interfaces /home/hoan/colcon_ws/build/dynamixel_interfaces /home/hoan/colcon_ws/build/dynamixel_interfaces /home/hoan/colcon_ws/build/dynamixel_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -1,9 +1,9 @@
 {
   "package_name": "dynamixel_interfaces",
   "non_idl_tuples": [
-    "/home/hoan/colcon_ws/src/dynamixel_interfaces:msg/DynamixelState.msg",
-    "/home/hoan/colcon_ws/src/dynamixel_interfaces:srv/GetDataFromDxl.srv",
-    "/home/hoan/colcon_ws/src/dynamixel_interfaces:srv/SetDataToDxl.srv",
-    "/home/hoan/colcon_ws/src/dynamixel_interfaces:srv/RebootDxl.srv"
+    "/home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces:msg/DynamixelState.msg",
+    "/home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces:srv/GetDataFromDxl.srv",
+    "/home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces:srv/SetDataToDxl.srv",
+    "/home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces:srv/RebootDxl.srv"
   ]
 }

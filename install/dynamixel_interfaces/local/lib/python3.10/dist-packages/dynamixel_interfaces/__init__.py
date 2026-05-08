@@ -1,0 +1,1 @@
+/home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/__init__.py

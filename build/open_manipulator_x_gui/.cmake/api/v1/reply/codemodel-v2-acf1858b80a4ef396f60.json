@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a1d4e07bd31ea4516b15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "open_manipulator_x_gui",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_ui_header::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_ui_header-51bd3a251e8106c8f64b.json",
+					"name" : "copy_ui_header",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_x_gui_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_x_gui_node-fdd2037446b7029d65c3.json",
+					"name" : "open_manipulator_x_gui_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_x_gui_node_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_x_gui_node_autogen-86c6bd78559d522c0088.json",
+					"name" : "open_manipulator_x_gui_node_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_x_gui_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_x_gui_uninstall-42614f7f927cc3a87a68.json",
+					"name" : "open_manipulator_x_gui_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fb14d4c521d110cef7b6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui",
+		"source" : "/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_gui"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

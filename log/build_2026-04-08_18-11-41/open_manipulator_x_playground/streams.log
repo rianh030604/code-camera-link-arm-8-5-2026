@@ -1,0 +1,24 @@
+[0.026s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground -- -j32 -l32
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target main[0m
+[0.115s] [ 50%] Built target hello_moveit
+[0.126s] [ 75%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[5.027s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.028s]                  from [01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:4[m[K:
+[5.028s] [01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:[m[K In member function ‘[01m[Kvoid AutoPickupNode::pose_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.028s] [01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:94:98:[m[K [01;31m[Kerror: [m[K‘[01m[Ktz_table[m[K’ was not declared in this scope
+[5.028s]    94 |         RCLCPP_INFO(this->get_logger(), "Ve vat (He mat ban) -> X:%.3f, Y:%.3f, Z:%.3f", tx, ty, [01;31m[Ktz_table[m[K);
+[5.028s]       |                                                                                                  [01;31m[K^~~~~~~~[m[K
+[9.029s] gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[9.029s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/main.dir/all] Error 2
+[9.030s] gmake: *** [Makefile:146: all] Error 2
+[9.033s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground -- -j32 -l32

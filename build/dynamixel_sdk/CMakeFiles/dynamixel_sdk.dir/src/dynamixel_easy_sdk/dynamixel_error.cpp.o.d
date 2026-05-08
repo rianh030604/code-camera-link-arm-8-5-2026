@@ -1,7 +1,7 @@
 CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/dynamixel_error.cpp.o: \
- /home/hoan/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_easy_sdk/dynamixel_error.cpp \
+ /home/dung/Manipulator_amr_90_dergee/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_easy_sdk/dynamixel_error.cpp \
  /usr/include/stdc-predef.h \
- /home/hoan/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk/include/dynamixel_easy_sdk/dynamixel_error.hpp \
+ /home/dung/Manipulator_amr_90_dergee/src/DynamixelSDK/ros/dynamixel_sdk/include/dynamixel_easy_sdk/dynamixel_error.hpp \
  /usr/include/c++/11/variant /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

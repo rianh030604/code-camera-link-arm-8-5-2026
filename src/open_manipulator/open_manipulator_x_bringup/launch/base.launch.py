@@ -202,10 +202,18 @@ def generate_launch_description():
                 on_exit=[gripper_controller_spawner],
             )
         )
-
+# thêm đoạn này:
+    camera_tf_node = Node(
+        package="tf2_ros",
+        executable="static_transform_publisher",
+        arguments=["0", "0", "0", "0", "0", "0",
+                "camera_link", "camera_color_optical_frame"],
+####################################                
+)
     nodes = [
         control_node,
         robot_state_pub_node,
+        camera_tf_node, # thêm dòng này
         joint_state_broadcaster_spawner,
         delay_rviz_after_joint_state_broadcaster_spawner,
         delay_arm_controller_spawner_after_joint_state_broadcaster_spawner,

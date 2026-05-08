@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoan/colcon_ws/src/dynamixel_interfaces
+CMAKE_SOURCE_DIR = /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoan/colcon_ws/build/dynamixel_interfaces
+CMAKE_BINARY_DIR = /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces
 
 # Utility rule file for dynamixel_interfaces__py.
 
@@ -161,8 +161,8 @@ rosidl_generator_py/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_types
 rosidl_generator_py/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
 rosidl_generator_py/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_py/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hoan/colcon_ws/build/dynamixel_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/hoan/colcon_ws/build/dynamixel_interfaces/dynamixel_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/dynamixel_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dynamixel_interfaces/_dynamixel_interfaces_s.ep.rosidl_typesupport_introspection_c.c
@@ -222,10 +222,10 @@ dynamixel_interfaces__py/CMakeFiles/dynamixel_interfaces__py.dir/build: dynamixe
 .PHONY : dynamixel_interfaces__py/CMakeFiles/dynamixel_interfaces__py.dir/build
 
 dynamixel_interfaces__py/CMakeFiles/dynamixel_interfaces__py.dir/clean:
-	cd /home/hoan/colcon_ws/build/dynamixel_interfaces/dynamixel_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/dynamixel_interfaces__py.dir/cmake_clean.cmake
+	cd /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/dynamixel_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/dynamixel_interfaces__py.dir/cmake_clean.cmake
 .PHONY : dynamixel_interfaces__py/CMakeFiles/dynamixel_interfaces__py.dir/clean
 
 dynamixel_interfaces__py/CMakeFiles/dynamixel_interfaces__py.dir/depend:
-	cd /home/hoan/colcon_ws/build/dynamixel_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hoan/colcon_ws/src/dynamixel_interfaces /home/hoan/colcon_ws/build/dynamixel_interfaces/dynamixel_interfaces__py /home/hoan/colcon_ws/build/dynamixel_interfaces /home/hoan/colcon_ws/build/dynamixel_interfaces/dynamixel_interfaces__py /home/hoan/colcon_ws/build/dynamixel_interfaces/dynamixel_interfaces__py/CMakeFiles/dynamixel_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/dynamixel_interfaces__py /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/dynamixel_interfaces__py /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/dynamixel_interfaces__py/CMakeFiles/dynamixel_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dynamixel_interfaces__py/CMakeFiles/dynamixel_interfaces__py.dir/depend
 

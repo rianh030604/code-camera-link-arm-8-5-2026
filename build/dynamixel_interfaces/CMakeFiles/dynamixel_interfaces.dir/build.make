@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoan/colcon_ws/src/dynamixel_interfaces
+CMAKE_SOURCE_DIR = /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoan/colcon_ws/build/dynamixel_interfaces
+CMAKE_BINARY_DIR = /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces
 
 # Utility rule file for dynamixel_interfaces.
 
@@ -66,14 +66,14 @@ include CMakeFiles/dynamixel_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/dynamixel_interfaces.dir/progress.make
 
-CMakeFiles/dynamixel_interfaces: /home/hoan/colcon_ws/src/dynamixel_interfaces/msg/DynamixelState.msg
-CMakeFiles/dynamixel_interfaces: /home/hoan/colcon_ws/src/dynamixel_interfaces/srv/GetDataFromDxl.srv
+CMakeFiles/dynamixel_interfaces: /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces/msg/DynamixelState.msg
+CMakeFiles/dynamixel_interfaces: /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces/srv/GetDataFromDxl.srv
 CMakeFiles/dynamixel_interfaces: rosidl_cmake/srv/GetDataFromDxl_Request.msg
 CMakeFiles/dynamixel_interfaces: rosidl_cmake/srv/GetDataFromDxl_Response.msg
-CMakeFiles/dynamixel_interfaces: /home/hoan/colcon_ws/src/dynamixel_interfaces/srv/SetDataToDxl.srv
+CMakeFiles/dynamixel_interfaces: /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces/srv/SetDataToDxl.srv
 CMakeFiles/dynamixel_interfaces: rosidl_cmake/srv/SetDataToDxl_Request.msg
 CMakeFiles/dynamixel_interfaces: rosidl_cmake/srv/SetDataToDxl_Response.msg
-CMakeFiles/dynamixel_interfaces: /home/hoan/colcon_ws/src/dynamixel_interfaces/srv/RebootDxl.srv
+CMakeFiles/dynamixel_interfaces: /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces/srv/RebootDxl.srv
 CMakeFiles/dynamixel_interfaces: rosidl_cmake/srv/RebootDxl_Request.msg
 CMakeFiles/dynamixel_interfaces: rosidl_cmake/srv/RebootDxl_Response.msg
 CMakeFiles/dynamixel_interfaces: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -154,6 +154,6 @@ CMakeFiles/dynamixel_interfaces.dir/clean:
 .PHONY : CMakeFiles/dynamixel_interfaces.dir/clean
 
 CMakeFiles/dynamixel_interfaces.dir/depend:
-	cd /home/hoan/colcon_ws/build/dynamixel_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hoan/colcon_ws/src/dynamixel_interfaces /home/hoan/colcon_ws/src/dynamixel_interfaces /home/hoan/colcon_ws/build/dynamixel_interfaces /home/hoan/colcon_ws/build/dynamixel_interfaces /home/hoan/colcon_ws/build/dynamixel_interfaces/CMakeFiles/dynamixel_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/CMakeFiles/dynamixel_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dynamixel_interfaces.dir/depend
 

@@ -1,3 +1,1 @@
-#http://linux-tips.org/t/prevent-modem-manager-to-capture-usb-serial-devices/284/2
-
-KERNEL=="ttyUSB*", DRIVERS=="ftdi_sio", MODE="0666", ATTR{device/latency_timer}="1"
+/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_bringup/99-open-manipulator-cdc.rules

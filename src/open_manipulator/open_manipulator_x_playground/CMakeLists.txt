@@ -14,6 +14,8 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
 
 ###############################################################################
 # Include directory (GLOBAL)
@@ -29,10 +31,13 @@ add_executable(hello_moveit
   src/hello_moveit.cpp
 )
 
+# Đã xóa chữ "main" đi lạc ở đây
 ament_target_dependencies(
   hello_moveit
   rclcpp
   moveit_ros_planning_interface
+  tf2_ros
+  tf2_geometry_msgs
 )
 
 ###############################################################################
@@ -42,10 +47,13 @@ add_executable(main
   src/main.cpp
 )
 
+# Đã bổ sung đủ bộ thư viện toán học tf2 cho node gắp vật của ông
 ament_target_dependencies(
   main
   rclcpp
   moveit_ros_planning_interface
+  tf2_ros
+  tf2_geometry_msgs
 )
 
 ###############################################################################
@@ -61,3 +69,6 @@ install(TARGETS
 # Ament
 ###############################################################################
 ament_package()
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)

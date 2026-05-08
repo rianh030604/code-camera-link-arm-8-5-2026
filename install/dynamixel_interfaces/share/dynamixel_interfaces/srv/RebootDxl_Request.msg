@@ -1,4 +1,1 @@
-########################################
-# Goals request
-########################################
-std_msgs/Header header
+/home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_cmake/srv/RebootDxl_Request.msg

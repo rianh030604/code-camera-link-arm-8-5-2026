@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_bringup
+CMAKE_SOURCE_DIR = /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoan/colcon_ws/build/open_manipulator_x_bringup
+CMAKE_BINARY_DIR = /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_bringup
 
 # Utility rule file for open_manipulator_x_bringup_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/open_manipulator_x_bringup_uninstall.dir/compiler_depend.make
 include CMakeFiles/open_manipulator_x_bringup_uninstall.dir/progress.make
 
 CMakeFiles/open_manipulator_x_bringup_uninstall:
-	/usr/bin/cmake -P /home/hoan/colcon_ws/build/open_manipulator_x_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 open_manipulator_x_bringup_uninstall: CMakeFiles/open_manipulator_x_bringup_uninstall
 open_manipulator_x_bringup_uninstall: CMakeFiles/open_manipulator_x_bringup_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/open_manipulator_x_bringup_uninstall.dir/clean:
 .PHONY : CMakeFiles/open_manipulator_x_bringup_uninstall.dir/clean
 
 CMakeFiles/open_manipulator_x_bringup_uninstall.dir/depend:
-	cd /home/hoan/colcon_ws/build/open_manipulator_x_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_bringup /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_bringup /home/hoan/colcon_ws/build/open_manipulator_x_bringup /home/hoan/colcon_ws/build/open_manipulator_x_bringup /home/hoan/colcon_ws/build/open_manipulator_x_bringup/CMakeFiles/open_manipulator_x_bringup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_bringup /home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_bringup /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_bringup /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_bringup /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_bringup/CMakeFiles/open_manipulator_x_bringup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/open_manipulator_x_bringup_uninstall.dir/depend
 

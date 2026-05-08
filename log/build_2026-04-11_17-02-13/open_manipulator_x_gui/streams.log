@@ -1,0 +1,36 @@
+[0.024s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui -- -j32 -l32
+[0.076s] [ 15%] Built target copy_ui_header
+[0.107s] [ 23%] [34m[1mAutomatic MOC and UIC for target open_manipulator_x_gui_node[0m
+[0.136s] [ 23%] Built target open_manipulator_x_gui_node_autogen
+[0.181s] [ 30%] [32m[1mLinking CXX executable open_manipulator_x_gui_node[0m
+[1.199s] [100%] Built target open_manipulator_x_gui_node
+[1.211s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui -- -j32 -l32
+[1.213s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --install /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui
+[1.220s] -- Install configuration: ""
+[1.221s] -- Execute custom install script
+[1.221s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/lib/open_manipulator_x_gui/open_manipulator_x_gui_node
+[1.221s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp
+[1.221s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp
+[1.221s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/launch/open_manipulator_x_gui.launch.py
+[1.222s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/ui/main_window.ui
+[1.222s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/config/robot_joint_log.csv
+[1.222s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/library_path.sh
+[1.222s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/library_path.dsv
+[1.222s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_gui
+[1.222s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_gui
+[1.222s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/ament_prefix_path.sh
+[1.222s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/ament_prefix_path.dsv
+[1.222s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/path.sh
+[1.222s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/path.dsv
+[1.223s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/local_setup.bash
+[1.223s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/local_setup.sh
+[1.223s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/local_setup.zsh
+[1.223s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/local_setup.dsv
+[1.223s] -- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/package.dsv
+[1.235s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/ament_index/resource_index/packages/open_manipulator_x_gui
+[1.235s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.235s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/cmake/ament_cmake_export_libraries-extras.cmake
+[1.235s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/cmake/open_manipulator_x_guiConfig.cmake
+[1.235s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/cmake/open_manipulator_x_guiConfig-version.cmake
+[1.235s] -- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_gui/share/open_manipulator_x_gui/package.xml
+[1.238s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --install /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui

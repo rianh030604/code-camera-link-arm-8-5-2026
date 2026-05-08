@@ -1,7 +1,7 @@
 CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o: \
- /home/hoan/colcon_ws/src/dynamixel_hardware_interface/src/dynamixel_hardware_interface.cpp \
+ /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/src/dynamixel_hardware_interface.cpp \
  /usr/include/stdc-predef.h \
- /home/hoan/colcon_ws/src/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel_hardware_interface.hpp \
+ /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel_hardware_interface.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -346,6 +346,7 @@ CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp
  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
  /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+ /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
@@ -657,9 +658,9 @@ CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
  /opt/ros/humble/include/hardware_interface/hardware_interface/types/hardware_interface_type_values.hpp \
- /home/hoan/colcon_ws/src/dynamixel_hardware_interface/include/dynamixel_hardware_interface/visibility_control.h \
- /home/hoan/colcon_ws/src/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel.hpp \
- /home/hoan/colcon_ws/src/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel_info.hpp \
+ /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/include/dynamixel_hardware_interface/visibility_control.h \
+ /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel.hpp \
+ /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel_info.hpp \
  /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
@@ -1065,41 +1066,41 @@ CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp
  /usr/include/boost/algorithm/string/formatter.hpp \
  /usr/include/boost/algorithm/string/detail/formatter.hpp \
  /usr/include/boost/algorithm/string/erase.hpp \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/dynamixel_sdk.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_read.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/packet_handler.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_handler.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_write.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_read.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_write.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_fast_sync_read.h \
- /home/hoan/colcon_ws/install/dynamixel_sdk/include/dynamixel_sdk/group_fast_bulk_read.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/dynamixel_sdk.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_read.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/port_handler.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/packet_handler.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/group_handler.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/group_bulk_write.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_read.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/group_sync_write.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/group_fast_sync_read.h \
+ /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/include/dynamixel_sdk/group_fast_bulk_read.h \
  /usr/include/c++/11/queue /usr/include/c++/11/bits/stl_queue.h \
  /usr/include/c++/11/cstdarg \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/dynamixel_state.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__struct.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/msg/dynamixel_state.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/msg/detail/dynamixel_state__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__builder.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__traits.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/msg/detail/dynamixel_state__builder.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/msg/detail/dynamixel_state__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/detail/dynamixel_state__type_support.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/get_data_from_dxl.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__struct.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__builder.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__traits.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/set_data_to_dxl.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__struct.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__builder.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__traits.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/set_data_to_dxl__type_support.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/reboot_dxl.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__struct.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__builder.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__traits.hpp \
- /home/hoan/colcon_ws/install/dynamixel_interfaces/include/dynamixel_interfaces/dynamixel_interfaces/srv/detail/reboot_dxl__type_support.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/msg/detail/dynamixel_state__type_support.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/srv/get_data_from_dxl.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/srv/detail/get_data_from_dxl__struct.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/srv/detail/get_data_from_dxl__builder.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/srv/detail/get_data_from_dxl__traits.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/srv/detail/get_data_from_dxl__type_support.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/srv/set_data_to_dxl.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/srv/detail/set_data_to_dxl__struct.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/srv/detail/set_data_to_dxl__builder.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/srv/detail/set_data_to_dxl__traits.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/srv/detail/set_data_to_dxl__type_support.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/srv/reboot_dxl.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/srv/detail/reboot_dxl__struct.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/srv/detail/reboot_dxl__builder.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/srv/detail/reboot_dxl__traits.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_cpp/dynamixel_interfaces/srv/detail/reboot_dxl__type_support.hpp \
  /opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.hpp \
  /opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/set_bool.hpp \

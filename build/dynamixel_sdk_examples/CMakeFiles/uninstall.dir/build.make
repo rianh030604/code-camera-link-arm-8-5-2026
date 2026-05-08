@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoan/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples
+CMAKE_SOURCE_DIR = /home/dung/Manipulator_amr_90_dergee/src/DynamixelSDK/ros/dynamixel_sdk_examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoan/colcon_ws/build/dynamixel_sdk_examples
+CMAKE_BINARY_DIR = /home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk_examples
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/hoan/colcon_ws/build/dynamixel_sdk_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hoan/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples /home/hoan/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples /home/hoan/colcon_ws/build/dynamixel_sdk_examples /home/hoan/colcon_ws/build/dynamixel_sdk_examples /home/hoan/colcon_ws/build/dynamixel_sdk_examples/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dung/Manipulator_amr_90_dergee/src/DynamixelSDK/ros/dynamixel_sdk_examples /home/dung/Manipulator_amr_90_dergee/src/DynamixelSDK/ros/dynamixel_sdk_examples /home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk_examples /home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk_examples /home/dung/Manipulator_amr_90_dergee/build/dynamixel_sdk_examples/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -1,0 +1,16 @@
+[0.024s] Invoking command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground -- -j32 -l32
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target main[0m
+[0.135s] [ 50%] Built target hello_moveit
+[0.151s] [ 75%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[5.033s] [01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.034s] [01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:23:114:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[5.034s]    23 |         "/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/points.json"[01;31m[K;[m[K
+[5.034s]       |                                                                                                                  [01;31m[K^[m[K
+[5.034s]       |                                                                                                                  [32m[K)[m[K
+[5.034s] [01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:22:27:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[5.034s]    22 |     auto poses = loadPoses[01;36m[K([m[K
+[5.034s]       |                           [01;36m[K^[m[K
+[7.658s] gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+[7.659s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/main.dir/all] Error 2
+[7.659s] gmake: *** [Makefile:146: all] Error 2
+[7.662s] Invoked command in '/home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_playground -- -j32 -l32

@@ -1,8 +1,8 @@
-# Install script for directory: /home/hoan/colcon_ws/src/dynamixel_hardware_interface
+# Install script for directory: /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hoan/colcon_ws/install/dynamixel_hardware_interface")
+  set(CMAKE_INSTALL_PREFIX "/home/dung/Manipulator_amr_90_dergee/install/dynamixel_hardware_interface")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface" TYPE FILE FILES "/home/hoan/colcon_ws/src/dynamixel_hardware_interface/dynamixel_hardware_interface_plugin.xml")
+  include("/home/dung/Manipulator_amr_90_dergee/build/dynamixel_hardware_interface/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -53,12 +53,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamixel_hardware_interface.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/libdynamixel_hardware_interface.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/dung/Manipulator_amr_90_dergee/build/dynamixel_hardware_interface/libdynamixel_hardware_interface.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamixel_hardware_interface.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamixel_hardware_interface.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamixel_hardware_interface.so"
-         OLD_RPATH "/home/hoan/colcon_ws/install/dynamixel_sdk/lib:/opt/ros/humble/lib:/home/hoan/colcon_ws/install/dynamixel_interfaces/lib:"
+         OLD_RPATH "/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/lib:/home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdynamixel_hardware_interface.so")
@@ -70,86 +70,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/hoan/colcon_ws/src/dynamixel_hardware_interface/include/")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dynamixel_hardware_interface" TYPE PROGRAM FILES "/home/hoan/colcon_ws/src/dynamixel_hardware_interface/scripts/create_udev_rules")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/" TYPE DIRECTORY FILES "/home/hoan/colcon_ws/src/dynamixel_hardware_interface/scripts")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface" TYPE DIRECTORY FILES "/home/hoan/colcon_ws/src/dynamixel_hardware_interface/param")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/environment" TYPE FILE FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/environment" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_environment_hooks/library_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dynamixel_hardware_interface")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dynamixel_hardware_interface")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/environment" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/environment" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_index/share/ament_index/resource_index/packages/dynamixel_hardware_interface")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/hardware_interface__pluginlib__plugin" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/dynamixel_hardware_interface")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport.cmake"
-         "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/CMakeFiles/Export/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport.cmake")
+         "/home/dung/Manipulator_amr_90_dergee/build/dynamixel_hardware_interface/CMakeFiles/Export/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -158,37 +82,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/cmake" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/CMakeFiles/Export/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/cmake" TYPE FILE FILES "/home/dung/Manipulator_amr_90_dergee/build/dynamixel_hardware_interface/CMakeFiles/Export/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/cmake" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/CMakeFiles/Export/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/cmake" TYPE FILE FILES "/home/dung/Manipulator_amr_90_dergee/build/dynamixel_hardware_interface/CMakeFiles/Export/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport-noconfig.cmake")
   endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/cmake" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/cmake" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/cmake" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/cmake" TYPE FILE FILES "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface/cmake" TYPE FILE FILES
-    "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_core/dynamixel_hardware_interfaceConfig.cmake"
-    "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/ament_cmake_core/dynamixel_hardware_interfaceConfig-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_hardware_interface" TYPE FILE FILES "/home/hoan/colcon_ws/src/dynamixel_hardware_interface/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -199,5 +96,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hoan/colcon_ws/build/dynamixel_hardware_interface/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dung/Manipulator_amr_90_dergee/build/dynamixel_hardware_interface/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,42 @@
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found open_manipulator_x_bringup: 3.0.4 (/home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/cmake)
+-- Found open_manipulator_x_moveit_config: 3.0.4 (/home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_moveit_config/share/open_manipulator_x_moveit_config/cmake)
+-- Found open_manipulator_x_description: 3.0.4 (/home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_description/share/open_manipulator_x_description/cmake)
+-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found rclcpp_action: 16.0.18 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_teleop
+[35m[1mConsolidate compiler generated dependencies of target open_manipulator_x_teleop[0m
+[100%] Built target open_manipulator_x_teleop
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop/open_manipulator_x_teleop
+-- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_teleop
+-- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_teleop
+-- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/path.sh
+-- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/path.dsv
+-- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.bash
+-- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.sh
+-- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.zsh
+-- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.dsv
+-- Symlinking: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.dsv
+-- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/share/ament_index/resource_index/packages/open_manipulator_x_teleop
+-- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/cmake/open_manipulator_x_teleopConfig.cmake
+-- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/cmake/open_manipulator_x_teleopConfig-version.cmake
+-- Up-to-date symlink: /home/dung/Manipulator_amr_90_dergee/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.xml

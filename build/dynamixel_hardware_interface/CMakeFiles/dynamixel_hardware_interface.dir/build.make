@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoan/colcon_ws/src/dynamixel_hardware_interface
+CMAKE_SOURCE_DIR = /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoan/colcon_ws/build/dynamixel_hardware_interface
+CMAKE_BINARY_DIR = /home/dung/Manipulator_amr_90_dergee/build/dynamixel_hardware_interface
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dynamixel_hardware_interface.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/dynamixel_hardware_interface.dir/progress.make
 include CMakeFiles/dynamixel_hardware_interface.dir/flags.make
 
 CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o: CMakeFiles/dynamixel_hardware_interface.dir/flags.make
-CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o: /home/hoan/colcon_ws/src/dynamixel_hardware_interface/src/dynamixel_hardware_interface.cpp
+CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o: /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/src/dynamixel_hardware_interface.cpp
 CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o: CMakeFiles/dynamixel_hardware_interface.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hoan/colcon_ws/build/dynamixel_hardware_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o -MF CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o.d -o CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o -c /home/hoan/colcon_ws/src/dynamixel_hardware_interface/src/dynamixel_hardware_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/dynamixel_hardware_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o -MF CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o.d -o CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o -c /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/src/dynamixel_hardware_interface.cpp
 
 CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hoan/colcon_ws/src/dynamixel_hardware_interface/src/dynamixel_hardware_interface.cpp > CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/src/dynamixel_hardware_interface.cpp > CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.i
 
 CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hoan/colcon_ws/src/dynamixel_hardware_interface/src/dynamixel_hardware_interface.cpp -o CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/src/dynamixel_hardware_interface.cpp -o CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.s
 
 CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o: CMakeFiles/dynamixel_hardware_interface.dir/flags.make
-CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o: /home/hoan/colcon_ws/src/dynamixel_hardware_interface/src/dynamixel/dynamixel_info.cpp
+CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o: /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/src/dynamixel/dynamixel_info.cpp
 CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o: CMakeFiles/dynamixel_hardware_interface.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hoan/colcon_ws/build/dynamixel_hardware_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o -MF CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o.d -o CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o -c /home/hoan/colcon_ws/src/dynamixel_hardware_interface/src/dynamixel/dynamixel_info.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/dynamixel_hardware_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o -MF CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o.d -o CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o -c /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/src/dynamixel/dynamixel_info.cpp
 
 CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hoan/colcon_ws/src/dynamixel_hardware_interface/src/dynamixel/dynamixel_info.cpp > CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/src/dynamixel/dynamixel_info.cpp > CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.i
 
 CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hoan/colcon_ws/src/dynamixel_hardware_interface/src/dynamixel/dynamixel_info.cpp -o CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/src/dynamixel/dynamixel_info.cpp -o CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.s
 
 CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o: CMakeFiles/dynamixel_hardware_interface.dir/flags.make
-CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o: /home/hoan/colcon_ws/src/dynamixel_hardware_interface/src/dynamixel/dynamixel.cpp
+CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o: /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/src/dynamixel/dynamixel.cpp
 CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o: CMakeFiles/dynamixel_hardware_interface.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hoan/colcon_ws/build/dynamixel_hardware_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o -MF CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o.d -o CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o -c /home/hoan/colcon_ws/src/dynamixel_hardware_interface/src/dynamixel/dynamixel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/dynamixel_hardware_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o -MF CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o.d -o CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o -c /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/src/dynamixel/dynamixel.cpp
 
 CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hoan/colcon_ws/src/dynamixel_hardware_interface/src/dynamixel/dynamixel.cpp > CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/src/dynamixel/dynamixel.cpp > CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.i
 
 CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hoan/colcon_ws/src/dynamixel_hardware_interface/src/dynamixel/dynamixel.cpp -o CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface/src/dynamixel/dynamixel.cpp -o CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.s
 
 # Object files for target dynamixel_hardware_interface
 dynamixel_hardware_interface_OBJECTS = \
@@ -128,24 +128,26 @@ libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libfake_components.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libmock_components.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libhardware_interface.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/librclcpp_lifecycle.so
-libdynamixel_hardware_interface.so: /home/hoan/colcon_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+libdynamixel_hardware_interface.so: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/lib/libdynamixel_sdk.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_cpp.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_py.so
-libdynamixel_hardware_interface.so: /home/hoan/colcon_ws/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_fastrtps_c.so
-libdynamixel_hardware_interface.so: /home/hoan/colcon_ws/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.so
-libdynamixel_hardware_interface.so: /home/hoan/colcon_ws/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_introspection_c.so
-libdynamixel_hardware_interface.so: /home/hoan/colcon_ws/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_introspection_cpp.so
-libdynamixel_hardware_interface.so: /home/hoan/colcon_ws/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_cpp.so
-libdynamixel_hardware_interface.so: /home/hoan/colcon_ws/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_generator_py.so
+libdynamixel_hardware_interface.so: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_fastrtps_c.so
+libdynamixel_hardware_interface.so: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_fastrtps_cpp.so
+libdynamixel_hardware_interface.so: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_introspection_c.so
+libdynamixel_hardware_interface.so: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_introspection_cpp.so
+libdynamixel_hardware_interface.so: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_cpp.so
+libdynamixel_hardware_interface.so: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_generator_py.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/librealtime_tools.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libthread_priority.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libclass_loader.so
 libdynamixel_hardware_interface.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libdynamixel_hardware_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/librcl_lifecycle.so
+libdynamixel_hardware_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_c.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
@@ -178,7 +180,6 @@ libdynamixel_hardware_interface.so: /opt/ros/humble/lib/liblifecycle_msgs__rosid
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so
-libdynamixel_hardware_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_c.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_c.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
@@ -191,8 +192,8 @@ libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-libdynamixel_hardware_interface.so: /home/hoan/colcon_ws/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_c.so
-libdynamixel_hardware_interface.so: /home/hoan/colcon_ws/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_generator_c.so
+libdynamixel_hardware_interface.so: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_typesupport_c.so
+libdynamixel_hardware_interface.so: /home/dung/Manipulator_amr_90_dergee/install/dynamixel_interfaces/lib/libdynamixel_interfaces__rosidl_generator_c.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
@@ -243,7 +244,7 @@ libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libaction_msgs__rosidl_t
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/librmw.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
@@ -272,7 +273,7 @@ libdynamixel_hardware_interface.so: /opt/ros/humble/lib/librcpputils.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libdynamixel_hardware_interface.so: /opt/ros/humble/lib/librcutils.so
 libdynamixel_hardware_interface.so: CMakeFiles/dynamixel_hardware_interface.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hoan/colcon_ws/build/dynamixel_hardware_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libdynamixel_hardware_interface.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/dynamixel_hardware_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libdynamixel_hardware_interface.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dynamixel_hardware_interface.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -284,6 +285,6 @@ CMakeFiles/dynamixel_hardware_interface.dir/clean:
 .PHONY : CMakeFiles/dynamixel_hardware_interface.dir/clean
 
 CMakeFiles/dynamixel_hardware_interface.dir/depend:
-	cd /home/hoan/colcon_ws/build/dynamixel_hardware_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hoan/colcon_ws/src/dynamixel_hardware_interface /home/hoan/colcon_ws/src/dynamixel_hardware_interface /home/hoan/colcon_ws/build/dynamixel_hardware_interface /home/hoan/colcon_ws/build/dynamixel_hardware_interface /home/hoan/colcon_ws/build/dynamixel_hardware_interface/CMakeFiles/dynamixel_hardware_interface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dung/Manipulator_amr_90_dergee/build/dynamixel_hardware_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface /home/dung/Manipulator_amr_90_dergee/src/dynamixel_hardware_interface /home/dung/Manipulator_amr_90_dergee/build/dynamixel_hardware_interface /home/dung/Manipulator_amr_90_dergee/build/dynamixel_hardware_interface /home/dung/Manipulator_amr_90_dergee/build/dynamixel_hardware_interface/CMakeFiles/dynamixel_hardware_interface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dynamixel_hardware_interface.dir/depend
 

@@ -54,7 +54,7 @@ endif()
 add_library(dynamixel_sdk::dynamixel_sdk SHARED IMPORTED)
 
 set_target_properties(dynamixel_sdk::dynamixel_sdk PROPERTIES
-  INTERFACE_COMPILE_DEFINITIONS "CONTROL_TABLE_PATH=\"/home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table\""
+  INTERFACE_COMPILE_DEFINITIONS "CONTROL_TABLE_PATH=\"/home/dung/Manipulator_amr_90_dergee/install/dynamixel_sdk/share/dynamixel_sdk/control_table\""
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
 )
 

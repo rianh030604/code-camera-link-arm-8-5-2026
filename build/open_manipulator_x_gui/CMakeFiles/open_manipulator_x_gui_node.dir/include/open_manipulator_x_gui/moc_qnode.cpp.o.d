@@ -1,5 +1,5 @@
 CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.o: \
- /home/hoan/colcon_ws/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_qnode.cpp \
+ /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_qnode.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -116,7 +116,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qn
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/hoan/colcon_ws/build/open_manipulator_x_gui/include/open_manipulator_x_gui/../../../../src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp \
+ /home/dung/Manipulator_amr_90_dergee/build/open_manipulator_x_gui/include/open_manipulator_x_gui/../../../../src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp \
  /opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h \
  /opt/ros/humble/include/moveit/macros/class_forward.h \
  /opt/ros/humble/include/moveit/macros/declare_ptr.h \
@@ -763,6 +763,7 @@ CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qn
  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
  /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+ /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \

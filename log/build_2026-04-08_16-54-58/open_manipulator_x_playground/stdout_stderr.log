@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target main[0m
+[ 50%] Built target hello_moveit
+[ 75%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/dung/Manipulator_amr_90_dergee/src/open_manipulator/open_manipulator_x_playground/src/main.cpp:143:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<rclcpp::executors::MultiThreadedExecutor>[m[K’ has no member named ‘[01m[Kadd_node[m[K’
+  143 |     executor.[01;31m[Kadd_node[m[K(auto_pickup_node);
+      |              [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/main.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

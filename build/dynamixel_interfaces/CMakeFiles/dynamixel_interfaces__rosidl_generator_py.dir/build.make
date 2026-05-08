@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoan/colcon_ws/src/dynamixel_interfaces
+CMAKE_SOURCE_DIR = /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoan/colcon_ws/build/dynamixel_interfaces
+CMAKE_BINARY_DIR = /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/depend.make
@@ -72,58 +72,58 @@ include CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.o: CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.o: rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.o: CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hoan/colcon_ws/build/dynamixel_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.o -MF CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.o.d -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.o -c /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.o -MF CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.o.d -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.o -c /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c
 
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c > CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c > CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.i
 
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state_s.c.s
 
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.o: CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.o: rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.o: CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hoan/colcon_ws/build/dynamixel_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.o -MF CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.o.d -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.o -c /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.o -MF CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.o.d -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.o -c /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c
 
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c > CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c > CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.i
 
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_get_data_from_dxl_s.c.s
 
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.o: CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.o: rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.o: CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hoan/colcon_ws/build/dynamixel_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.o -MF CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.o.d -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.o -c /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.o -MF CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.o.d -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.o -c /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c
 
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c > CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c > CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.i
 
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_set_data_to_dxl_s.c.s
 
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.o: CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.o: rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.o: CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hoan/colcon_ws/build/dynamixel_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.o -MF CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.o.d -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.o -c /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.o -MF CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.o.d -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.o -c /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c
 
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c > CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c > CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.i
 
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c -o CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_interfaces/srv/_reboot_dxl_s.c.s
 
 # Object files for target dynamixel_interfaces__rosidl_generator_py
 dynamixel_interfaces__rosidl_generator_py_OBJECTS = \
@@ -156,7 +156,7 @@ rosidl_generator_py/dynamixel_interfaces/libdynamixel_interfaces__rosidl_generat
 rosidl_generator_py/dynamixel_interfaces/libdynamixel_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/dynamixel_interfaces/libdynamixel_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/dynamixel_interfaces/libdynamixel_interfaces__rosidl_generator_py.so: CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hoan/colcon_ws/build/dynamixel_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library rosidl_generator_py/dynamixel_interfaces/libdynamixel_interfaces__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library rosidl_generator_py/dynamixel_interfaces/libdynamixel_interfaces__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/clean
 
 CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/depend:
-	cd /home/hoan/colcon_ws/build/dynamixel_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hoan/colcon_ws/src/dynamixel_interfaces /home/hoan/colcon_ws/src/dynamixel_interfaces /home/hoan/colcon_ws/build/dynamixel_interfaces /home/hoan/colcon_ws/build/dynamixel_interfaces /home/hoan/colcon_ws/build/dynamixel_interfaces/CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/src/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces /home/dung/Manipulator_amr_90_dergee/build/dynamixel_interfaces/CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dynamixel_interfaces__rosidl_generator_py.dir/depend
 
